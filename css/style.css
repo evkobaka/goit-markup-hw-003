@@ -37,13 +37,17 @@ body {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .header > .container {
   display: flex;
+}
 
-  padding-left: 15px;
-  padding-right: 15px;
+.header {
+  /* padding-left: 15px;
+  padding-right: 15px; */
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -132,7 +136,10 @@ body {
 
 .hero {
   background-color: #2f303a;
-  padding: 200px 452px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: auto;
+  padding-right: auto;
 }
 
 .hero-title {
@@ -144,6 +151,9 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
+  max-width: 696px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero-btn {
@@ -218,6 +228,11 @@ body {
   padding-top: 0;
 }
 
+/* .photo-container {
+  padding-right: 15px;
+  padding-left: 15px;
+} */
+
 .team {
   background: #f5f4fa;
 }
@@ -236,7 +251,7 @@ body {
 .list-member {
   background-color: #ffffff;
   width: 270px;
-  height: 368px;
+  /* height: 368px; */
 }
 
 .team-member {
@@ -244,7 +259,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   color: #212121;
-  margin-top: 30px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -252,13 +266,19 @@ body {
 .team-member-text {
   font-size: 16px;
   line-height: 1.19;
-  margin-bottom: 30px;
   text-align: center;
   color: #757575;
 }
 
+.member {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -296,8 +316,9 @@ body {
 .footer > .container {
   width: 100%;
   max-width: 1200px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .portfolio-contacts {
@@ -353,17 +374,16 @@ body {
 
 .cards {
   flex-wrap: wrap;
-  justify-content: space-around;
+  gap: 30px;
 }
 
 .card {
   width: 370px;
-  height: 404px;
-  margin-bottom: 30px;
 }
 
 .card-description {
   border: 1px solid #eeeeee;
+  padding: 20px 24px;
 }
 
 .card-image.no-gap {
@@ -376,7 +396,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-  margin: 20px 24px 4px;
+  margin-bottom: 4px;
 }
 
 .content-text {
@@ -384,7 +404,4 @@ body {
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 20px;
 }
